@@ -55,7 +55,7 @@ class fee:
         self.cd=pd.DataFrame()
     
         #self.master_list=np.array([['Ram','Shayam','Hari', 'Radha','Ramesh', 'Suresh', 'Sayan', 'Debojjal'],[12,13,78,98,54,67,83,'SampleRoll123'],['JEE','JEE','JEE','JEE','JEE','JEE','JEE','JEE']]).transpose()
-        self.master_list= pd.read_csv('master')
+        self.master_list= pd.read_csv(master)
     
     def selectMonth(self): 
         
